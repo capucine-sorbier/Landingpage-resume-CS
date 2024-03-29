@@ -1,0 +1,51 @@
+/* Write some CSS below */
+.work-experiences {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+}
+
+.experience img {
+	width: 150px;
+}
+
+#cv-img {
+	display: block;
+    margin: auto;
+    max-width: 20%; 
+    height: auto; 
+}
+
+
+h3 {
+  color: lightblue;
+  font-size: 24px;
+}
+
+h2 {
+  color: royalblue;
+  font-size: 24px;
+}
+
+h1 {
+  color: blueviolet;
+  font-size: 24px;
+}
+
+body {
+  font-family: Helvetica;
+}
+
+body {
+    background-color: #f5f5dc
+}
+
+.paragraph {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
